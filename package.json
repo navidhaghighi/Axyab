@@ -1,0 +1,18 @@
+{
+  "name": "aksyab",
+  "version": "1.0.0",
+  "description": "Telegram Bot for finding images via google search",
+  "main": "index.js",
+  "dependencies": {
+    "botgram": "^2.0.1",
+    "figlet": "^1.2.0",
+    "node-telegram-bot-api": "^0.30.0",
+    "fs": "^0.0.2",
+    "yahoo-weather": "^2.2.2",
+    "g-i-s": "^2.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  }
+}

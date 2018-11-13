@@ -43,6 +43,10 @@ var changeLimitiationKeyboard = [
 ];
 //#endregion
 //#region botCommands
+bot.command('start',function (msg, reply, next) {
+  showMainMenu(msg,reply);
+});
+
 
 bot.command(function (msg, reply, next) {
   reply.text(invalidCmd);
